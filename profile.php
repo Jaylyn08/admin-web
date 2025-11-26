@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
 <h1>Create Your Profile</h1>
-<form method="POST" action="">
+<form method="POST" action="dashboard.php">
     <label for="name">Full Name:</label>
     <input type="text" name="name" required>
 
